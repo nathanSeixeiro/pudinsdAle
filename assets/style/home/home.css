@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Heebo:wght@300;400;500;600;700&display=swap");
+
+:root{
+    --color-text:#676f73;
+    --color-button-hover:#E8505B;
+    /* -- - - */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Heebo", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--color-text);
+    overflow-x: hidden;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus,
+.btn:focus,
+.btn.focus,
+.btn:not(:disabled):not(.disabled).active
+.btn:not(:disabled):not(.disabled):active{
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+a:hover{
+    color: var(--color-button-hover);
+}
+
+a{
+    transition: all .3s ease-out ;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+i,
+span,
+a {
+  display: inline-block;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
