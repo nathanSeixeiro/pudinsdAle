@@ -1,22 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style/home.css">
-    <title>Pudins d'Alê</title>
-</head>
-<body>
-    <header>
-        <nav class="navigation">
-            <div class="logo">
-                <p class="logo">pudins d' Ale</p>
+<html class="nojs" lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        
+        <link rel="stylesheet" href="/assets/style/bootstrap-5.0.0-alpha-2.min.css">
+        <link rel="stylesheet" href="/assets/style/LineIcons.2.0.css">
+        <link rel="stylesheet" href="/assets/style/animate.css">
+        <link rel="stylesheet" href="/assets/style/home.css">
+        
+        <title>Pudins d'Alê</title>
+    </head>
+    <body>
+        <!-- tela de carregamento -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="ytp-spinner">
+                    <div class="ytp-sinner-container">
+                        <div class="ytp-spinner-rotator">
+                            <div class="ytp-spinner-left">
+                                <div class="ytp-spinner-circle"></div>
+                            </div>
+                            <div class="ytp-spinner-right">
+                                <div class="ytp-spinner-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>        
-    </header>
+        </div>
+        <!-- end preloader -->
 
-    <script src="./assets/js/home.js"></script>
+        <header class="header">
+            <div class="navbar">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg">
+                                <a href="index.html" class="navbar-brand">
+ <!--colocar imagem-->             <img src="" alt="logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                </button>
 
-</body>
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                    <ul id="nav" class="navbar-nav ml-auto">
+                                        <li class="nav-item">
+                                            <a href="#home" class="page-scroll">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#sabores" class="page-scroll">Sabores</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#about" class="page-scroll">Sobre</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#home" class="page-scroll">Avaliação</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="./assets/html/products.html" class="page-scroll">Comprar</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <script src="./assets/js/home.js"></script>
+
+    </body>
 </html>
