@@ -19,6 +19,8 @@
     text-decoration: none;
 }
 
+/* HEADER */
+
 .logo{
     color: var(--text-color);
     display: flex;
@@ -27,16 +29,18 @@
     padding: 0px;
     gap: 12px;
     position: absolute;
-    width: 146px;
-    height: 32px;
+    width: 9.125em;
+    height: 2em;
     left: 40px;
     top: 40px;
 }
 
+/* FORM */
+
 .login{
     position: absolute;
-    width: 360px;
-    height: 517px;
+    width: 22.5em;
+    height: 32.3125em;
     left: 140px;
     top: 221px;
 
@@ -46,14 +50,14 @@
 .title{
     font-weight: 700;
     font-size: 2.5em;
-    line-height: 48px;
+    line-height: 3em;
     text-transform: capitalize;
     color: var(--text-color);
 }
 
 .subtitle{
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5em;
     color: var(--text-2);
 }
 
@@ -64,12 +68,52 @@
 }
 
 input{
+    width: 22.5em;
+    height: 2.75em;
     margin-bottom: 1em;
     border-radius: 8px;
     border: 1px solid #d0d5dd;
 }
 
-.remember{
+::-webkit-input-placeholder{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 115px;
+    position: absolute;
+    width: 20.75em;
+    height: 1.5em;
+    left: 14px;
+    top: 10px;
+}
+
+.remember{
+    gap: 8px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.25em;
+    color: var(--text-color);
     justify-content: space-between;
+}
+
+.sign-in{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 154px;
+    gap: 10px;
+    position: absolute;
+    width: 20.75em;
+    height: 3em;
+    margin-top: 3em;
+    background: var(--primary-color);
+    border-radius: 8px;
+}
+
+.sign-in a{
+    color: white;
 }
