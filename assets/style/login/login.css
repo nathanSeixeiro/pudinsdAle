@@ -22,6 +22,7 @@
 /* HEADER */
 
 .logo{
+    font-size: 16px;
     color: var(--text-color);
     display: flex;
     flex-direction: row;
@@ -39,12 +40,18 @@
 
 .login{
     position: absolute;
-    width: 22.5em;
+    width: 19em;
     height: 32.3125em;
     left: 140px;
-    top: 221px;
+    top: 100px;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@media (width: 1440px) {
+    .login{
+        width: 22.5em;
+        top: 200px;
+    }
 }
 
 .title{
@@ -107,11 +114,15 @@ input{
     padding: 12px 154px;
     gap: 10px;
     position: absolute;
-    width: 20.75em;
+    width: 19em;
     height: 3em;
     margin-top: 3em;
     background: var(--primary-color);
     border-radius: 8px;
+    border-style: none;
+}
+
+.sign-in button{
 }
 
 .sign-in a{
