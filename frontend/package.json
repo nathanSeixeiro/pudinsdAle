@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[C",
+  "scripts": {
+    "dev": "npm run "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanSeixeiro/pudinsdAle.git"
+  },
+  "author": "nathan Seixeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanSeixeiro/pudinsdAle/issues"
+  },
+  "homepage": "https://github.com/nathanSeixeiro/pudinsdAle#readme"
+}

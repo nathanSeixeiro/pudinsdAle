@@ -16,30 +16,38 @@
     <!-- ==== header end ====== -->
 
     <section class="login">
-        <form action="" method="post">
+        <form method="post">
             <h2 class="title">Pudins d'Alê</h2>
             <p class="subtitle">Insira suas informaçoes por favor</p>
             <br></br>
 
-            <p class="email-password">Email:</p>
-            <input type="email" name="email" placeholder="Insira seu melhor email">
-            
-            <p class="email-password">Senha:</p>
-            <input type="password" name="name" placeholder="Insira seu nome">
-
-            <div class="remember">
-                <p>Lembrar de mim</p>
-                <a href="#">Esqueceu sua senha?</a>
+            <div class="email-password">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Insira seu melhor email">
             </div>
 
+            <div class="email-password">
+                <label class="email-password">Senha:</label>
+                <input type="password" name="name" placeholder="Insira seu nome">
+            </div>
+
+            <div class="remember">
+                <div class="input-remember">
+                    <input id="remember" type="checkbox">
+                    <label for="rememberMe">Lembrar de mim</label>
+                </div>
+                    <a href="#">Esqueceu sua senha?</a>
+            </div>  
+            
             <button class="sign-in">
                 <a href="#">Entrar</a>
             </button>
-
-            <div id="googleLogin"></div>
+            
+            <div class="google-btn" id="googleLogin"></div>
+            
+            <span class="sign-up">Não tem conta? <a href="#">Cadastre-se</a></span>
         </form>
 
-        <span class="sign-up">Não tem conta? <a href="#">Cadastre-se</a></span>
     </section>
 
     <script src="/assets/js/login/loginGoogle.js"></script>

@@ -11,7 +11,11 @@ window.onload = function () {
     google.accounts.id.renderButton(
         document.getElementById("googleLogin"), {   
             theme: "outline", 
-            size: "large"
+            size: "large",
+            padding: "10px 90px 10px 90px",
+            width: 309,
+            height: 2.75
+
         }  // customization attributes
     );
     google.accounts.id.prompt(); // also display the One Tap dialog
